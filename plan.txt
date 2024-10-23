@@ -1,0 +1,15 @@
+Use stem library
+Edit torrc if possible
+Experiment on more signals "saved png", DORMANT might be good if CPU usage is high
+Look up limits on NEWSYN usage
+Provide basic functionality, IN LIBRARY configuration for number "ports" of would be useful BUT might be sort of impossible
+Easy integration to IndexBot's RequestManager and as proxy loading, as well as exposing number of possible concurrent connections and "IPs"
+
+Write Config file in py
+	- One will contain default paths for torrc file
+	- In second one we will have options for torrc options we care about, aka no passwords, not now at least
+Subprocess will reload these when we write new configuration in it
+Be wary of windows and linux OS
+
+Maybe have ready commands that will install needed tor service itself? Specially thinking about windows and its TOR expert bs?
+Save old torrc with timestamp
