@@ -6,5 +6,5 @@ class Torrc:
     LOG_NOTICE_STD = True
 
 class Other:
-    LINUX_PATH = "/home/covac/Desktop/test_torrc"#"/etc/tor/torrc"
+    LINUX_PATH = "/etc/tor/torrc"#"/home/covac/Desktop/test_torrc"#"/etc/tor/torrc"
     WINDOWS_PATH = "C:\Tools\TOR\torrc"
